@@ -1,8 +1,4 @@
-"""
-KekGL is like OtherGLs but Kek.
 
-Note that in KekGl row-major matrix order is used.
-"""
 
 from matrix import *
 from math import cos, sin
