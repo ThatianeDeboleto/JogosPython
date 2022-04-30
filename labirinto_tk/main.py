@@ -1,8 +1,3 @@
-"""
-This is a basic example of using KekGL
-Use 'a', 'w', 's', 'd' to move, arrows to rotate
-"""
-
 import time
 
 import UIManager
