@@ -38,7 +38,7 @@ def get_next_open_row(board, col):
 def check_win(board):
     for piece in [1,2]:
 
-
+###################################
         for i in range(ROW_COUNT):
             row = board[i]
 
