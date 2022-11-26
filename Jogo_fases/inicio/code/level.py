@@ -7,13 +7,13 @@ from particles import ParticleEffect
 class Level:
 	def __init__(self,level_data,surface):
 		
-		# level setup
+		# construção do level 
 		self.display_surface = surface 
 		self.setup_level(level_data)
 		self.world_shift = 0
 		self.current_x = 0
 
-		# dust 
+		
 		self.dust_sprite = pygame.sprite.GroupSingle()
 		self.player_on_ground = False
 
