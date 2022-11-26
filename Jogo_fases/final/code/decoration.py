@@ -11,7 +11,7 @@ class Sky:
 		self.middle = pygame.image.load('../graphics/decoration/sky/sky_middle.png').convert()
 		self.horizon = horizon
 
-		# stretch 
+		# imagens 
 		self.top = pygame.transform.scale(self.top,(screen_width,tile_size))
 		self.bottom = pygame.transform.scale(self.bottom,(screen_width,tile_size))
 		self.middle = pygame.transform.scale(self.middle,(screen_width,tile_size))
