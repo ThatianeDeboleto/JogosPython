@@ -1,7 +1,7 @@
 import tkinter
 from tkinter import *
 import random
-#sudoku tela
+#montando a tela
 guess = str()
 grid = [[0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -195,7 +195,7 @@ def rearrange(a):
 def duplicate_checker(a):
     b = set(a)
     result = len(a) != len(b)
-    # print(result)
+    # print(result) - teste
     if (result == True):
         return True
 
